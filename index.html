@@ -60,7 +60,7 @@
                     alert(json.mensagem);
                     return;
                 }
-                sessionStorage.setItem("usuario", JSON)
+                sessionStorage.setItem("usuario", JSON.stringify(json.usuario));
                 alert(json.mensagem);
                 window.location.href = "tarefas.html";
             })
